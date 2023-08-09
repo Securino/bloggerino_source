@@ -1,4 +1,4 @@
-# Bloggerino Source Code
+# Bloggerino
 
 Welome to bloggerino, this repository contains the code of our secure Blog app, which protects againsts the following cyber security risks:
 

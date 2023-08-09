@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+nav{
+
+    background: rgba(42,186,212,0);
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 25px 5px 25px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav h2{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'poppins',sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+nav h2:hover{
+    border-bottom: 2px solid white;
+}
+nav ul a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin:10px;
+    /*transition:0.3s ease-in-out;*/
+    cursor: pointer;
+}
+.main_header ul a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 0;
+    padding: 10px 10px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 300;
+    margin:10px;
+    transition:0.3s ease-in-out;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+.signin_button{
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition:0.3s ease-in-out;
+
+}
+.signin_button:hover{
+    border: 2px solid white;
+}
+.signup_button{
+    background: rgb(42,186,212);
+    background: linear-gradient(137deg, rgba(42,186,212,1) 8%, rgba(125,203,181,1) 100%);
+    border:2px solid #a9def9;
+    transition:0.3s ease-in-out;
+
+}
+.signup_button:hover{
+    background: rgba(0, 56, 82, 0);
+    color:white;
+}
+.search_bar{
+    border-radius: 15px;
+    border:none;
+    padding:15px;
+    height:30px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 400;
+    width: 400px;
+}
